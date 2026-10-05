@@ -19,7 +19,7 @@ package com.example.inventory.data
 import kotlinx.coroutines.flow.Flow
 
 class OfflineItemsRepository(private val itemDao: ItemDao) : ItemsRepository {
-    override fun getAllItemsStream(): Flow<List<Item?>> = itemDao.getAllItems()
+    override fun getAllItemsStream(): Flow<List<Item>> = itemDao.getAllItems()
 
     override fun getItemStream(id: Int): Flow<Item?> = itemDao.getItem(id)
 
