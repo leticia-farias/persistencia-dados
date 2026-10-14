@@ -52,7 +52,7 @@ Demonstração do fluxo de inserção de itens, atualização de stock em tempo 
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/leticia-farias/persistencia-dados.git](https://github.com/leticia-farias/persistencia-dados.git)
+   git clone https://github.com/leticia-farias/persistencia-dados.git
 
 2. Abra o projeto no **Android Studio**.
 3. Aguarde pela sincronização do **Gradle**.
